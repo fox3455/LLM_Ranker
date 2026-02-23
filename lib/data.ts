@@ -186,7 +186,11 @@ function parseVRAMToGB(vramStr: string): number {
   return 0
 }
 
+<<<<<<< HEAD
 export function calculateRank(models: ProcessedModel[], rankMode: 'overall' | 'weekly' | 'monthly' = 'overall'): ProcessedModel[] {
+=======
+export function calculateRank(models: ProcessedModel[]): ProcessedModel[] {
+>>>>>>> 497cee11 (Fixed indexing error)
   const ranked = models.map(model => {
     let trendingScore = 0
     let trendingDownloads = 0

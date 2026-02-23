@@ -127,12 +127,21 @@ export default async function Home() {
                     {index + 1}
                   </div>
                   <div>
+<<<<<<< HEAD
                     <Link
                       href={getModelUrl(model)}
                       className="text-lg font-bold text-white group-hover:text-purple-400 transition-colors"
                     >
                       {model.name}
                     </Link>
+=======
+                     <Link
+                        href={getModelUrl(model)}
+                        className="text-lg font-bold text-white group-hover:text-purple-400 transition-colors"
+                      >
+                        {model.name}
+                      </Link>
+>>>>>>> 497cee11 (Fixed indexing error)
                     <div className="text-xs text-gray-400 capitalize">{model.source}</div>
                   </div>
                 </div>

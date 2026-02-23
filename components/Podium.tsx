@@ -112,7 +112,11 @@ interface PodiumModelProps {
   url: string
 }
 
+<<<<<<< HEAD
 function PodiumModel({ model, position, color, icon, label, height, url }: PodiumModelProps) {
+=======
+function PodiumModel({ model, position, color, icon, label, height, url }: PodiumModelProps & { url: string }) {
+>>>>>>> 497cee11 (Fixed indexing error)
   return (
     <div className="relative group">
       {/* Base */}
