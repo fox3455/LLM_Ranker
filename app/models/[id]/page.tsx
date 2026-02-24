@@ -191,15 +191,9 @@ export default async function ModelPage({ params }: { params: { id: string } }) 
               <div className="bg-indigo-50 dark:bg-indigo-900/20 p-4 rounded-lg">
                 <div className="text-sm text-gray-600 dark:text-gray-400 mb-2">Recommended</div>
                  <div className="text-xl font-bold text-indigo-600 dark:text-indigo-400">
-<<<<<<< HEAD
                     {model.estimatedVram === 'Unknown' 
                       ? 'Unknown - Parameters not available' 
                       : getRecommendedGPU(model.estimatedVram)}
-=======
-                   {model.estimatedVram === 'Unknown' 
-                     ? 'Unknown - Parameters not available' 
-                     : getRecommendedGPU(model.estimatedVram)}
->>>>>>> 497cee11 (Fixed indexing error)
                  </div>
               </div>
             </div>

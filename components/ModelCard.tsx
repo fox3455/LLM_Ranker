@@ -31,7 +31,6 @@ export default function ModelCard({ model, rank, index }: ModelCardProps) {
 
       <div className="mb-4">
         <div className="flex items-center justify-between mb-2">
-<<<<<<< HEAD
           <Link
             href={`/models/${model.source === 'huggingface' ? 'hf' : 'ollama'}_${model.id.replace('/', '_').replace(':', '_')}`}
             className="text-xl font-bold text-white truncate hover:text-purple-400 transition-colors"
@@ -39,14 +38,11 @@ export default function ModelCard({ model, rank, index }: ModelCardProps) {
           >
             {model.name}
           </Link>
-=======
->>>>>>> 497cee11 (Fixed indexing error)
           <Link
-            href={`/models/${model.source === 'huggingface' ? 'hf' : 'ollama'}_${model.id.replace('/', '_').replace(':', '_')}`}
-            className="text-xl font-bold text-white truncate hover:text-purple-400 transition-colors"
-            title={model.name}
+            href={`/models/${model.source === 'huggingface' ? `hf_${model.id.replace('/', '_')}` : `ollama_${model.name.replace(':', '_')}`}`}
+            className="text-indigo-400 hover:text-indigo-300 text-sm font-semibold"
           >
-            {model.name}
+            View Profile
           </Link>
         </div>
         <div className="flex items-center gap-2">

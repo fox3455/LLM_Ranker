@@ -11,30 +11,12 @@ function getModelUrl(model: ProcessedModel): string {
   return `/models/${sourcePrefix}_${modelId}`
 }
 
-type RankMode = 'overall' | 'weekly' | 'monthly'
-
-export default async function Home({ 
-  searchParams 
-}: { 
-  searchParams?: { period?: string } 
-}) {
+export default async function Home() {
   const models = await loadModels()
-<<<<<<< HEAD
   const rankedModels = calculateRank(models, 'overall')
-=======
-  const period = (searchParams?.period as RankMode) || 'weekly'
-  
-  // When weekly/monthly mode, sort models by their trending metrics
-  let rankedModels: ProcessedModel[]
-  if (period === 'weekly' || period === 'monthly') {
-    rankedModels = calculateRank(models, period)
-  } else {
-    rankedModels = calculateRank(models, 'overall')
-  }
->>>>>>> 42df20e2 (New weekly sorting algo)
 
   const featuredModels = rankedModels.slice(0, 6)
-  const topDownloaded = [...models].sort((a, b) => (b.weeklyDownloads || b.downloads) - (a.weeklyDownloads || a.downloads)).slice(0, 10)
+  const topDownloaded = [...models].sort((a, b) => b.downloads - a.downloads).slice(0, 10)
   const hfCount = rankedModels.filter(m => m.source === 'huggingface').length
   const ollamaCount = rankedModels.filter(m => m.source === 'ollama').length
 
@@ -101,55 +83,17 @@ export default async function Home({
         <GradientComparisonBar hfModels={hfCount} ollamaModels={ollamaCount} />
       </section>
 
-      {/* Rank Mode Switcher */}
-      <section className="container mx-auto px-4 animate-slide-up" style={{ animationDelay: '0.55s' }}>
-        <div className="flex justify-center mb-8">
-          <div className="inline-flex bg-gray-800/50 p-1 rounded-xl border border-gray-700 backdrop-blur-sm">
-            {[
-              { id: 'overall', label: 'Overall', icon: '📊' },
-              { id: 'weekly', label: 'Weekly', icon: '🔥' },
-              { id: 'monthly', label: 'Monthly', icon: '📈' },
-            ].map((mode) => (
-              <Link
-                key={mode.id}
-                href={`?period=${mode.id}`}
-                className={`px-6 py-2.5 rounded-lg text-sm font-bold transition-all ${
-                  period === mode.id
-                    ? 'bg-gradient-to-r from-purple-600 to-indigo-600 text-white shadow-lg'
-                    : 'text-gray-400 hover:text-white hover:bg-gray-700/50'
-                }`}
-              >
-                <span className="mr-2">{mode.icon}</span>
-                {mode.label}
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Leaderboard Chart */}
       <section className="container mx-auto px-4 animate-slide-up" style={{ animationDelay: '0.6s' }}>
         <div className="flex items-center justify-between mb-6">
           <h2 className="text-3xl font-bold text-white">
-<<<<<<< HEAD
             <span className="text-yellow-400">⚡</span> Top 10 All-Time Leaders
-=======
-            <span className="text-yellow-400">⚡</span> Top 10 {period === 'weekly' ? 'Weekly' : period === 'monthly' ? 'Monthly' : 'All-Time'} Leaders
->>>>>>> 42df20e2 (New weekly sorting algo)
           </h2>
           <Link href="/search" className="text-indigo-400 hover:text-indigo-300 text-sm font-bold flex items-center gap-1">
             View All Models <span>→</span>
           </Link>
         </div>
-<<<<<<< HEAD
-<<<<<<< HEAD
         <LeaderboardChart models={rankedModels} />
-=======
-        <LeaderboardChart models={models} period={period as RankMode} />
->>>>>>> 42df20e2 (New weekly sorting algo)
-=======
-        <LeaderboardChart models={rankedModels} period={period as RankMode} />
->>>>>>> fc890171 (Fixed the model leaderboard bar chart.)
       </section>
 
       {/* Featured Models Grid */}
@@ -183,21 +127,12 @@ export default async function Home({
                     {index + 1}
                   </div>
                   <div>
-<<<<<<< HEAD
                     <Link
                       href={getModelUrl(model)}
                       className="text-lg font-bold text-white group-hover:text-purple-400 transition-colors"
                     >
                       {model.name}
                     </Link>
-=======
-                     <Link
-                        href={getModelUrl(model)}
-                        className="text-lg font-bold text-white group-hover:text-purple-400 transition-colors"
-                      >
-                        {model.name}
-                      </Link>
->>>>>>> 497cee11 (Fixed indexing error)
                     <div className="text-xs text-gray-400 capitalize">{model.source}</div>
                   </div>
                 </div>
