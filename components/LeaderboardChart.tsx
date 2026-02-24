@@ -52,9 +52,18 @@ export default function LeaderboardChart({ models }: LeaderboardChartProps) {
     return model.downloads
   }
 
+  const calculateTrending = (model: any) => {
+    if (period === 'weekly') {
+      return model.weeklyDownloads ? Math.log10(model.weeklyDownloads + 1) * 70 : 0
+    } else if (period === 'monthly') {
+      return model.monthlyDownloads ? Math.log10(model.monthlyDownloads + 1) * 70 : 0
+    }
+    return model.weeklyDownloads ? Math.log10(model.weeklyDownloads + 1) * 70 : 0
+  }
+
   const top10 = [...models].sort((a, b) => {
-    const aTrending = a.rankScoreTrending || 0
-    const bTrending = b.rankScoreTrending || 0
+    const aTrending = calculateTrending(a)
+    const bTrending = calculateTrending(b)
     const aScore = (a.downloads ? Math.log10(a.downloads + 1) * 3 : 0) + 
                    (a.likes ? Math.log10(a.likes + 1) * 1.5 : 0) +
                    (a.tasks?.length || 0) * 0.6
