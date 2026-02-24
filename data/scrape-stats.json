@@ -1,6 +1,13 @@
 {
+<<<<<<< HEAD
   "totalModels": 125,
   "huggingFaceCount": 93,
   "ollamaCount": 32,
   "timestamp": "2026-02-24T08:18:28.464Z"
+=======
+  "totalModels": 198,
+  "huggingFaceCount": 166,
+  "ollamaCount": 32,
+  "timestamp": "2026-02-24T07:46:12.401Z"
+>>>>>>> 42df20e2 (New weekly sorting algo)
 }

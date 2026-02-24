@@ -115,6 +115,10 @@ async function scrapeHuggingFace(limit: number = 100): Promise<HuggingFaceModel[
   return models.slice(0, limit);
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 42df20e2 (New weekly sorting algo)
 async function scrapeTrending(): Promise<TrendingItem[]> {
   console.log('Scraping trending models...');
 
@@ -287,8 +291,13 @@ function processModels(
       estimatedVram: 'Unknown',
       sizeBytes: 0,
       tasks,
+<<<<<<< HEAD
       weeklyDownloads: trendingData?.weeklyDownloads,
       monthlyDownloads: trendingData?.monthlyDownloads, 
+=======
+      weeklyDownloads: trendingMap.get(model.modelId)?.weeklyDownloads,
+      monthlyDownloads: trendingMap.get(model.modelId)?.monthlyDownloads, 
+>>>>>>> 42df20e2 (New weekly sorting algo)
     });
   }
   
@@ -314,11 +323,20 @@ function processModels(
     });
   }
   
+<<<<<<< HEAD
   // Add trending-only models (that are not in main HF list)
   const seenBeforeTrending = new Set(processed.map(m => m.id));
   console.log("Processing trending models, seen size:", seenBeforeTrending.size);
   for (const trending of trendingModels) {
     if (!seenBeforeTrending.has(trending.id)) {
+=======
+  
+  // Add trending-only models (that are not in main HF list)
+  const seen = new Set(processed.map(m => m.id));
+  console.log("Processing trending models, seen size:", seen.size);
+  for (const trending of trendingModels) {
+    if (!seen.has(trending.id)) {
+>>>>>>> 42df20e2 (New weekly sorting algo)
       const params = extractParameters('');
       const tasks = extractTasks(trending.tags);
       
@@ -326,7 +344,11 @@ function processModels(
         id: trending.id,
         name: trending.id.split('/')[1] || trending.id.split('/')[0],
         source: 'huggingface' as const,
+<<<<<<< HEAD
         downloads: trending.weeklyDownloads,
+=======
+        downloads: 0,
+>>>>>>> 42df20e2 (New weekly sorting algo)
         likes: trending.likes,
         tags: trending.tags || [],
         parameters: 'Unknown',
@@ -341,6 +363,7 @@ function processModels(
     }
   }
   console.log("After adding trending models, total:", processed.length);
+<<<<<<< HEAD
   
   // Deduplicate by ID
   const seen = new Set<string>();
@@ -352,6 +375,9 @@ function processModels(
     }
   }
   return uniqueProcessed;
+=======
+  return processed;
+>>>>>>> 42df20e2 (New weekly sorting algo)
 }
 
 function saveData(models: ProcessedModel[], outputPath: string): void {

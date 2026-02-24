@@ -187,12 +187,19 @@ function parseVRAMToGB(vramStr: string): number {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 export function calculateRank(models: ProcessedModel[], rankMode: 'overall' | 'weekly' | 'monthly' = 'overall'): ProcessedModel[] {
 =======
 export function calculateRank(models: ProcessedModel[]): ProcessedModel[] {
 >>>>>>> 497cee11 (Fixed indexing error)
   const ranked = models.map(model => {
     let trendingScore = 0
+=======
+export function calculateRank(models: ProcessedModel[], rankMode: 'overall' | 'weekly' | 'monthly' = 'overall'): ProcessedModel[] {
+  const ranked = models.map(model => {
+    let trendingScore = 0
+    // Get the appropriate trending metric based on rank mode
+>>>>>>> 42df20e2 (New weekly sorting algo)
     let trendingDownloads = 0
     if (rankMode === 'weekly') {
       trendingDownloads = model.weeklyDownloads || 0
@@ -200,9 +207,16 @@ export function calculateRank(models: ProcessedModel[]): ProcessedModel[] {
       trendingDownloads = model.monthlyDownloads || 0
     }
     
+<<<<<<< HEAD
     if (trendingDownloads > 0) {
       trendingScore = Math.log10(trendingDownloads + 1) * 70
     } else if (model.trendingScore && rankMode !== 'overall') {
+=======
+    // Use trending downloads if available, otherwise use all-time downloads
+    if (trendingDownloads > 0) {
+      trendingScore = Math.log10(trendingDownloads + 1) * 70
+    } else if (model.trendingScore) {
+>>>>>>> 42df20e2 (New weekly sorting algo)
       trendingScore = model.trendingScore * 70
     }
     
@@ -211,6 +225,7 @@ export function calculateRank(models: ProcessedModel[]): ProcessedModel[] {
     const tagScore = model.tasks.length * 0.6
     
     const overallScore = downloadScore + likeScore + tagScore
+<<<<<<< HEAD
     
     let rankScore: number
     if (rankMode === 'overall') {
@@ -218,6 +233,9 @@ export function calculateRank(models: ProcessedModel[]): ProcessedModel[] {
     } else {
       rankScore = trendingScore + overallScore
     }
+=======
+    const rankScore = trendingScore + overallScore
+>>>>>>> 42df20e2 (New weekly sorting algo)
     
     return { ...model, rankScore, rankScoreTrending: trendingScore }
   })

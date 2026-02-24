@@ -45,8 +45,13 @@ const gradientColors = [
 
 export default function LeaderboardChart({ models, period = 'overall' }: LeaderboardChartProps) {
   const getMetric = (model: any) => {
+<<<<<<< HEAD
     if (period === 'weekly') return model.weeklyDownloads ?? model.downloads
     if (period === 'monthly') return model.monthlyDownloads ?? model.downloads
+=======
+    if (period === 'weekly') return model.weeklyDownloads || 0
+    if (period === 'monthly') return model.monthlyDownloads || 0
+>>>>>>> 42df20e2 (New weekly sorting algo)
     return model.downloads
   }
   
