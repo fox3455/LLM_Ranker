@@ -15,7 +15,7 @@ function SearchContent() {
   const [filteredModels, setFilteredModels] = useState<any[]>([])
   const [loading, setLoading] = useState(true)
   const query = searchParams.get('q') || ''
-  const sort = searchParams.get('sort') || 'rank'
+  const sort = searchParams.get('sort') || 'trending'
   const source = searchParams.get('source')
   
   const [filters, setFilters] = useState<FilterState>({

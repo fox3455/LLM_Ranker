@@ -30,7 +30,7 @@ export default function ModelCard({ model, rank, index }: ModelCardProps) {
       </div>
 
       <div className="mb-4">
-        <div className="flex items-center justify-between mb-2">
+        <div className="mb-2">
           <Link
             href={`/models/${model.source === 'huggingface' ? 'hf' : 'ollama'}_${model.id.replace('/', '_').replace(':', '_')}`}
             className="text-xl font-bold text-white truncate hover:text-purple-400 transition-colors"
@@ -38,14 +38,8 @@ export default function ModelCard({ model, rank, index }: ModelCardProps) {
           >
             {model.name}
           </Link>
-          <Link
-            href={`/models/${model.source === 'huggingface' ? `hf_${model.id.replace('/', '_')}` : `ollama_${model.name.replace(':', '_')}`}`}
-            className="text-indigo-400 hover:text-indigo-300 text-sm font-semibold"
-          >
-            View Profile
-          </Link>
         </div>
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 mb-2">
           <span className={`text-xs px-2 py-1 rounded-full font-medium ${
             model.source === 'huggingface'
               ? 'bg-blue-500/20 text-blue-400 border border-blue-500/30'
@@ -53,7 +47,18 @@ export default function ModelCard({ model, rank, index }: ModelCardProps) {
           }`}>
             {model.source === 'huggingface' ? '🐙 HF' : '🤖 Ollama'}
           </span>
+          {model.weeklyDownloads && model.weeklyDownloads > 0 && (
+            <span className="text-xs px-2 py-1 rounded-full font-medium bg-red-500/20 text-red-400 border border-red-500/30 flex items-center gap-1">
+              <span>🔥</span> Trending
+            </span>
+          )}
         </div>
+        <Link
+          href={`/models/${model.source === 'huggingface' ? `hf_${model.id.replace('/', '_')}` : `ollama_${model.name.replace(':', '_')}`}`}
+          className="text-indigo-400 hover:text-indigo-300 text-sm font-semibold"
+        >
+          View Profile
+        </Link>
       </div>
 
       {/* Key stats */}

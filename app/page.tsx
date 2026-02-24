@@ -13,7 +13,7 @@ function getModelUrl(model: ProcessedModel): string {
 
 export default async function Home() {
   const models = await loadModels()
-  const rankedModels = calculateRank(models, 'overall')
+  const rankedModels = calculateRank(models, 'weekly')
 
   const featuredModels = rankedModels.slice(0, 6)
   const topDownloaded = [...models].sort((a, b) => b.downloads - a.downloads).slice(0, 10)
@@ -87,7 +87,7 @@ export default async function Home() {
       <section className="container mx-auto px-4 animate-slide-up" style={{ animationDelay: '0.6s' }}>
         <div className="flex items-center justify-between mb-6">
           <h2 className="text-3xl font-bold text-white">
-            <span className="text-yellow-400">⚡</span> Top 10 All-Time Leaders
+            <span className="text-yellow-400">📊</span> Trending Leaderboard (Top 10)
           </h2>
           <Link href="/search" className="text-indigo-400 hover:text-indigo-300 text-sm font-bold flex items-center gap-1">
             View All Models <span>→</span>

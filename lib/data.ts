@@ -189,30 +189,26 @@ function parseVRAMToGB(vramStr: string): number {
 export function calculateRank(models: ProcessedModel[], rankMode: 'overall' | 'weekly' | 'monthly' = 'overall'): ProcessedModel[] {
   const ranked = models.map(model => {
     let trendingScore = 0
-    let trendingDownloads = 0
     if (rankMode === 'weekly') {
-      trendingDownloads = model.weeklyDownloads || 0
+      trendingScore = model.weeklyDownloads 
+        ? Math.log10(model.weeklyDownloads + 1) * 70 
+        : 0
     } else if (rankMode === 'monthly') {
-      trendingDownloads = model.monthlyDownloads || 0
-    }
-    
-    if (trendingDownloads > 0) {
-      trendingScore = Math.log10(trendingDownloads + 1) * 70
-    } else if (model.trendingScore && rankMode !== 'overall') {
-      trendingScore = model.trendingScore * 70
+      trendingScore = model.monthlyDownloads 
+        ? Math.log10(model.monthlyDownloads + 1) * 70 
+        : 0
     }
     
     const downloadScore = Math.log10(model.downloads + 1) * 3
     const likeScore = Math.log10(model.likes + 1) * 1.5
     const tagScore = model.tasks.length * 0.6
-    
     const overallScore = downloadScore + likeScore + tagScore
     
     let rankScore: number
     if (rankMode === 'overall') {
-      rankScore = trendingScore * 0.3 + overallScore * 0.7
+      rankScore = overallScore * 0.7 + trendingScore * 0.3
     } else {
-      rankScore = trendingScore + overallScore
+      rankScore = trendingScore * 0.7 + overallScore * 0.3
     }
     
     return { ...model, rankScore, rankScoreTrending: trendingScore }
