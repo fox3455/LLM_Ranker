@@ -109,9 +109,10 @@ interface PodiumModelProps {
   icon: string
   label: string
   height: string
+  url: string
 }
 
-function PodiumModel({ model, position, color, icon, label, height, url }: PodiumModelProps & { url: string }) {
+function PodiumModel({ model, position, color, icon, label, height, url }: PodiumModelProps) {
   return (
     <div className="relative group">
       {/* Base */}
