@@ -115,7 +115,6 @@ async function scrapeHuggingFace(limit: number = 100): Promise<HuggingFaceModel[
   return models.slice(0, limit);
 }
 
-
 async function scrapeTrending(): Promise<TrendingItem[]> {
   console.log('Scraping trending models...');
 
@@ -314,7 +313,6 @@ function processModels(
       tasks,
     });
   }
-  
   
   // Add trending-only models (that are not in main HF list)
   const seenBeforeTrending = new Set(processed.map(m => m.id));

@@ -38,6 +38,12 @@ export default function ModelCard({ model, rank, index }: ModelCardProps) {
           >
             {model.name}
           </Link>
+          <Link
+            href={`/models/${model.source === 'huggingface' ? `hf_${model.id.replace('/', '_')}` : `ollama_${model.name.replace(':', '_')}`}`}
+            className="text-indigo-400 hover:text-indigo-300 text-sm font-semibold"
+          >
+            View Profile
+          </Link>
         </div>
         <div className="flex items-center gap-2">
           <span className={`text-xs px-2 py-1 rounded-full font-medium ${

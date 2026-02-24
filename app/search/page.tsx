@@ -185,11 +185,11 @@ function SearchContent() {
               <p className="text-gray-400 mb-6">Try adjusting your filters or search query</p>
               <button
                   onClick={() => {
-                   setFilters({ minDownloads: 0, minLikes: 0, maxParameters: 1000, selectedTasks: [], selectedVramTiers: [], selectedGPU: undefined })
-                  window.history.pushState({}, '', '/search')
-                }}
-                className="px-6 py-2 bg-purple-600 hover:bg-purple-700 text-white font-semibold rounded-lg transition-colors"
-              >
+                    setFilters({ minDownloads: 0, minLikes: 0, maxParameters: 1000, selectedTasks: [], selectedVramTiers: [], selectedGPU: undefined })
+                    window.history.pushState({}, '', '/search')
+                  }}
+                  className="px-6 py-2 bg-purple-600 hover:bg-purple-700 text-white font-semibold rounded-lg transition-colors"
+                >
                 Reset Filter
               </button>
             </div>
