@@ -142,10 +142,14 @@ export default async function Home({
           </Link>
         </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <LeaderboardChart models={rankedModels} />
 =======
         <LeaderboardChart models={models} period={period as RankMode} />
 >>>>>>> 42df20e2 (New weekly sorting algo)
+=======
+        <LeaderboardChart models={rankedModels} period={period as RankMode} />
+>>>>>>> fc890171 (Fixed the model leaderboard bar chart.)
       </section>
 
       {/* Featured Models Grid */}

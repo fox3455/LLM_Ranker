@@ -496,10 +496,14 @@
     "source": "huggingface",
     "downloads": 16620493,
 <<<<<<< HEAD
+<<<<<<< HEAD
     "likes": 1090,
 =======
     "likes": 1089,
 >>>>>>> 42df20e2 (New weekly sorting algo)
+=======
+    "likes": 1090,
+>>>>>>> fc890171 (Fixed the model leaderboard bar chart.)
     "tags": [
       "transformers",
       "safetensors",
@@ -1661,10 +1665,14 @@
     "source": "huggingface",
     "downloads": 4557238,
 <<<<<<< HEAD
+<<<<<<< HEAD
     "likes": 770,
 =======
     "likes": 769,
 >>>>>>> 42df20e2 (New weekly sorting algo)
+=======
+    "likes": 770,
+>>>>>>> fc890171 (Fixed the model leaderboard bar chart.)
     "tags": [
       "transformers",
       "safetensors",
@@ -2289,10 +2297,14 @@
     "source": "huggingface",
     "downloads": 3652807,
 <<<<<<< HEAD
+<<<<<<< HEAD
     "likes": 894,
 =======
     "likes": 893,
 >>>>>>> 42df20e2 (New weekly sorting algo)
+=======
+    "likes": 894,
+>>>>>>> fc890171 (Fixed the model leaderboard bar chart.)
     "tags": [
       "sentence-transformers",
       "safetensors",
@@ -3236,6 +3248,7 @@
     ]
   },
   {
+<<<<<<< HEAD
     "id": "sentence-transformers/all-MiniLM-L6-v2",
     "name": "all-MiniLM-L6-v2",
     "source": "huggingface",
@@ -6606,6 +6619,8 @@
   },
   {
 >>>>>>> 42df20e2 (New weekly sorting algo)
+=======
+>>>>>>> fc890171 (Fixed the model leaderboard bar chart.)
     "id": "qwen3.5:397b",
     "name": "qwen3.5",
     "source": "ollama",
@@ -6620,6 +6635,7 @@
     ]
   },
   {
+<<<<<<< HEAD
 <<<<<<< HEAD
     "id": "ministral-3:8b",
     "name": "ministral-3",
@@ -6787,6 +6803,8 @@
     "id": "qwen3-vl:235b",
     "name": "qwen3-vl",
 =======
+=======
+>>>>>>> fc890171 (Fixed the model leaderboard bar chart.)
     "id": "ministral-3:8b",
     "name": "ministral-3",
 >>>>>>> 42df20e2 (New weekly sorting algo)
@@ -6806,6 +6824,7 @@
     ]
   },
   {
+<<<<<<< HEAD
 <<<<<<< HEAD
     "id": "minimax-m2.1",
     "name": "minimax-m2.1",
@@ -6828,6 +6847,8 @@
     ]
   },
   {
+=======
+>>>>>>> fc890171 (Fixed the model leaderboard bar chart.)
     "id": "devstral-small-2:24b",
     "name": "devstral-small-2",
     "source": "ollama",
@@ -6842,29 +6863,15 @@
     ]
   },
   {
-    "id": "glm-4.6",
-    "name": "glm-4.6",
+    "id": "gemma3:12b",
+    "name": "gemma3",
     "source": "ollama",
     "downloads": 0,
     "likes": 0,
     "tags": [],
     "parameters": "Unknown",
     "estimatedVram": "Unknown",
-    "sizeBytes": 696060000000,
-    "tasks": [
-      "General"
-    ]
-  },
-  {
-    "id": "deepseek-v3.1:671b",
-    "name": "deepseek-v3.1",
-    "source": "ollama",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [],
-    "parameters": "Unknown",
-    "estimatedVram": "Unknown",
-    "sizeBytes": 688586727753,
+    "sizeBytes": 24000000000,
     "tasks": [
       "General"
     ]
@@ -6880,6 +6887,20 @@
     "estimatedVram": "Unknown",
     "sizeBytes": 470000000000,
 >>>>>>> 42df20e2 (New weekly sorting algo)
+    "tasks": [
+      "General"
+    ]
+  },
+  {
+    "id": "minimax-m2.1",
+    "name": "minimax-m2.1",
+    "source": "ollama",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 230000000000,
     "tasks": [
       "General"
     ]
@@ -6914,10 +6935,223 @@
   },
   {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "id": "cogito-2.1:671b",
     "name": "cogito-2.1",
     "source": "ollama",
 =======
+=======
+    "id": "cogito-2.1:671b",
+    "name": "cogito-2.1",
+    "source": "ollama",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 688586727753,
+    "tasks": [
+      "General"
+    ]
+  },
+  {
+    "id": "kimi-k2:1t",
+    "name": "kimi-k2",
+    "source": "ollama",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 1118481408000,
+    "tasks": [
+      "General"
+    ]
+  },
+  {
+    "id": "kimi-k2.5",
+    "name": "kimi-k2.5",
+    "source": "ollama",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 1118481408000,
+    "tasks": [
+      "General"
+    ]
+  },
+  {
+    "id": "kimi-k2-thinking",
+    "name": "kimi-k2-thinking",
+    "source": "ollama",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 1118481408000,
+    "tasks": [
+      "General"
+    ]
+  },
+  {
+    "id": "gpt-oss:20b",
+    "name": "gpt-oss",
+    "source": "ollama",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 13780162412,
+    "tasks": [
+      "General"
+    ]
+  },
+  {
+    "id": "qwen3-vl:235b-instruct",
+    "name": "qwen3-vl",
+    "source": "ollama",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 470000000000,
+    "tasks": [
+      "General"
+    ]
+  },
+  {
+    "id": "glm-5",
+    "name": "glm-5",
+    "source": "ollama",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 756162687872,
+    "tasks": [
+      "General"
+    ]
+  },
+  {
+    "id": "qwen3-coder:480b",
+    "name": "qwen3-coder",
+    "source": "ollama",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 510492157952,
+    "tasks": [
+      "General"
+    ]
+  },
+  {
+    "id": "deepseek-v3.2",
+    "name": "deepseek-v3.2",
+    "source": "ollama",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 688586727753,
+    "tasks": [
+      "General"
+    ]
+  },
+  {
+    "id": "nemotron-3-nano:30b",
+    "name": "nemotron-3-nano",
+    "source": "ollama",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 32645090390,
+    "tasks": [
+      "General"
+    ]
+  },
+  {
+    "id": "minimax-m2.5",
+    "name": "minimax-m2.5",
+    "source": "ollama",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 230000000000,
+    "tasks": [
+      "General"
+    ]
+  },
+  {
+    "id": "rnj-1:8b",
+    "name": "rnj-1",
+    "source": "ollama",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 16000000000,
+    "tasks": [
+      "General"
+    ]
+  },
+  {
+    "id": "glm-4.6",
+    "name": "glm-4.6",
+    "source": "ollama",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 696060000000,
+    "tasks": [
+      "General"
+    ]
+  },
+  {
+    "id": "gemma3:4b",
+    "name": "gemma3",
+    "source": "ollama",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 8600000000,
+    "tasks": [
+      "General"
+    ]
+  },
+  {
+    "id": "qwen3-coder-next",
+    "name": "qwen3-coder-next",
+    "source": "ollama",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 81800000000,
+    "tasks": [
+      "General"
+    ]
+  },
+  {
+>>>>>>> fc890171 (Fixed the model leaderboard bar chart.)
     "id": "mistral-large-3:675b",
     "name": "mistral-large-3",
     "source": "ollama",
@@ -6932,11 +7166,123 @@
     ]
   },
   {
+    "id": "devstral-2:123b",
+    "name": "devstral-2",
+    "source": "ollama",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 128249391520,
+    "tasks": [
+      "General"
+    ]
+  },
+  {
+    "id": "gemini-3-flash-preview",
+    "name": "gemini-3-flash-preview",
+    "source": "ollama",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 0,
+    "tasks": [
+      "General"
+    ]
+  },
+  {
+    "id": "qwen3-next:80b",
+    "name": "qwen3-next",
+    "source": "ollama",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 81800000000,
+    "tasks": [
+      "General"
+    ]
+  },
+  {
+    "id": "gpt-oss:120b",
+    "name": "gpt-oss",
+    "source": "ollama",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 65290180781,
+    "tasks": [
+      "General"
+    ]
+  },
+  {
+    "id": "glm-4.7",
+    "name": "glm-4.7",
+    "source": "ollama",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 696060000000,
+    "tasks": [
+      "General"
+    ]
+  },
+  {
+    "id": "deepseek-v3.1:671b",
+    "name": "deepseek-v3.1",
+    "source": "ollama",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 688586727753,
+    "tasks": [
+      "General"
+    ]
+  },
+  {
+    "id": "minimax-m2",
+    "name": "minimax-m2",
+    "source": "ollama",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 230000000000,
+    "tasks": [
+      "General"
+    ]
+  },
+  {
+    "id": "gemma3:27b",
+    "name": "gemma3",
+    "source": "ollama",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 55000000000,
+    "tasks": [
+      "General"
+    ]
+  },
+  {
     "id": "Qwen/Qwen3.5-397B-A17B",
     "name": "Qwen3.5-397B-A17B",
     "source": "huggingface",
-    "downloads": 0,
-    "likes": 958,
+    "downloads": 390092,
+    "likes": 961,
     "tags": [],
     "parameters": "Unknown",
     "estimatedVram": "Unknown",
@@ -6952,9 +7298,14 @@
     "id": "zai-org/GLM-5",
     "name": "GLM-5",
     "source": "huggingface",
+<<<<<<< HEAD
 >>>>>>> 42df20e2 (New weekly sorting algo)
     "downloads": 0,
     "likes": 1489,
+=======
+    "downloads": 180202,
+    "likes": 1490,
+>>>>>>> fc890171 (Fixed the model leaderboard bar chart.)
     "tags": [],
     "parameters": "Unknown",
     "estimatedVram": "Unknown",
@@ -6970,7 +7321,7 @@
     "id": "nvidia/personaplex-7b-v1",
     "name": "personaplex-7b-v1",
     "source": "huggingface",
-    "downloads": 0,
+    "downloads": 539333,
     "likes": 2179,
     "tags": [],
     "parameters": "Unknown",
@@ -7347,12 +7698,17 @@
     "name": "Nanbeige4.1-3B",
     "source": "huggingface",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "downloads": 202462,
     "likes": 761,
 =======
     "downloads": 0,
     "likes": 760,
 >>>>>>> 42df20e2 (New weekly sorting algo)
+=======
+    "downloads": 202462,
+    "likes": 761,
+>>>>>>> fc890171 (Fixed the model leaderboard bar chart.)
     "tags": [],
     "parameters": "Unknown",
     "estimatedVram": "Unknown",
@@ -7369,12 +7725,17 @@
     "name": "MiniMax-M2.5",
     "source": "huggingface",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "downloads": 223962,
     "likes": 889,
 =======
     "downloads": 0,
     "likes": 886,
 >>>>>>> 42df20e2 (New weekly sorting algo)
+=======
+    "downloads": 223962,
+    "likes": 889,
+>>>>>>> fc890171 (Fixed the model leaderboard bar chart.)
     "tags": [],
     "parameters": "Unknown",
     "estimatedVram": "Unknown",
@@ -7391,10 +7752,14 @@
     "name": "Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-GGUF",
     "source": "huggingface",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "downloads": 34627,
 =======
     "downloads": 0,
 >>>>>>> 42df20e2 (New weekly sorting algo)
+=======
+    "downloads": 34627,
+>>>>>>> fc890171 (Fixed the model leaderboard bar chart.)
     "likes": 174,
     "tags": [],
     "parameters": "Unknown",
@@ -7429,10 +7794,14 @@
     "name": "Qwen3-TTS-12Hz-1.7B-CustomVoice",
     "source": "huggingface",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "downloads": 1023572,
 =======
     "downloads": 0,
 >>>>>>> 42df20e2 (New weekly sorting algo)
+=======
+    "downloads": 1023572,
+>>>>>>> fc890171 (Fixed the model leaderboard bar chart.)
     "likes": 1165,
     "tags": [],
     "parameters": "Unknown",
@@ -7450,10 +7819,14 @@
     "name": "Kimi-K2.5",
     "source": "huggingface",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "downloads": 1276735,
 =======
     "downloads": 0,
 >>>>>>> 42df20e2 (New weekly sorting algo)
+=======
+    "downloads": 1276735,
+>>>>>>> fc890171 (Fixed the model leaderboard bar chart.)
     "likes": 2098,
     "tags": [],
     "parameters": "Unknown",
@@ -7471,12 +7844,17 @@
     "name": "FireRed-Image-Edit-1.0",
     "source": "huggingface",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "downloads": 3053,
     "likes": 263,
 =======
     "downloads": 0,
     "likes": 262,
 >>>>>>> 42df20e2 (New weekly sorting algo)
+=======
+    "downloads": 3053,
+    "likes": 263,
+>>>>>>> fc890171 (Fixed the model leaderboard bar chart.)
     "tags": [],
     "parameters": "Unknown",
     "estimatedVram": "Unknown",
@@ -7493,10 +7871,14 @@
     "name": "Strand-Rust-Coder-14B-v1",
     "source": "huggingface",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "downloads": 1272,
 =======
     "downloads": 0,
 >>>>>>> 42df20e2 (New weekly sorting algo)
+=======
+    "downloads": 1272,
+>>>>>>> fc890171 (Fixed the model leaderboard bar chart.)
     "likes": 131,
     "tags": [],
     "parameters": "Unknown",
@@ -7514,12 +7896,17 @@
     "name": "ZUNA",
     "source": "huggingface",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "downloads": 1351,
     "likes": 118,
 =======
     "downloads": 0,
     "likes": 117,
 >>>>>>> 42df20e2 (New weekly sorting algo)
+=======
+    "downloads": 1351,
+    "likes": 118,
+>>>>>>> fc890171 (Fixed the model leaderboard bar chart.)
     "tags": [],
     "parameters": "Unknown",
     "estimatedVram": "Unknown",
@@ -7536,10 +7923,14 @@
     "name": "NVIDIA-Nemotron-Nano-9B-v2-Japanese",
     "source": "huggingface",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "downloads": 10409,
 =======
     "downloads": 0,
 >>>>>>> 42df20e2 (New weekly sorting algo)
+=======
+    "downloads": 10409,
+>>>>>>> fc890171 (Fixed the model leaderboard bar chart.)
     "likes": 107,
     "tags": [],
     "parameters": "Unknown",
@@ -7557,10 +7948,14 @@
     "name": "MOSS-TTS",
     "source": "huggingface",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "downloads": 58361,
 =======
     "downloads": 0,
 >>>>>>> 42df20e2 (New weekly sorting algo)
+=======
+    "downloads": 58361,
+>>>>>>> fc890171 (Fixed the model leaderboard bar chart.)
     "likes": 310,
     "tags": [],
     "parameters": "Unknown",
@@ -7578,10 +7973,14 @@
     "name": "kitten-tts-mini-0.8",
     "source": "huggingface",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "downloads": 22695,
 =======
     "downloads": 0,
 >>>>>>> 42df20e2 (New weekly sorting algo)
+=======
+    "downloads": 22695,
+>>>>>>> fc890171 (Fixed the model leaderboard bar chart.)
     "likes": 99,
     "tags": [],
     "parameters": "Unknown",
@@ -7599,10 +7998,14 @@
     "name": "Qwen3.5-397B-A17B-GGUF",
     "source": "huggingface",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "downloads": 90260,
 =======
     "downloads": 0,
 >>>>>>> 42df20e2 (New weekly sorting algo)
+=======
+    "downloads": 90260,
+>>>>>>> fc890171 (Fixed the model leaderboard bar chart.)
     "likes": 188,
     "tags": [],
     "parameters": "Unknown",
@@ -7620,10 +8023,14 @@
     "name": "Qwen3-Coder-Next",
     "source": "huggingface",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "downloads": 484455,
 =======
     "downloads": 0,
 >>>>>>> 42df20e2 (New weekly sorting algo)
+=======
+    "downloads": 484455,
+>>>>>>> fc890171 (Fixed the model leaderboard bar chart.)
     "likes": 974,
     "tags": [],
     "parameters": "Unknown",
@@ -7641,10 +8048,14 @@
     "name": "tiny-aya-global",
     "source": "huggingface",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "downloads": 2330,
 =======
     "downloads": 0,
 >>>>>>> 42df20e2 (New weekly sorting algo)
+=======
+    "downloads": 2330,
+>>>>>>> fc890171 (Fixed the model leaderboard bar chart.)
     "likes": 89,
     "tags": [],
     "parameters": "Unknown",
@@ -7658,6 +8069,7 @@
     "trendingScore": 1
   },
   {
+<<<<<<< HEAD
 <<<<<<< HEAD
     "id": "Qwen/Qwen3.5-397B-A17B-FP8",
     "name": "Qwen3.5-397B-A17B-FP8",
@@ -7701,10 +8113,12 @@
 =======
   },
   {
+=======
+>>>>>>> fc890171 (Fixed the model leaderboard bar chart.)
     "id": "Qwen/Qwen3.5-397B-A17B-FP8",
     "name": "Qwen3.5-397B-A17B-FP8",
     "source": "huggingface",
-    "downloads": 0,
+    "downloads": 68820,
     "likes": 82,
     "tags": [],
     "parameters": "Unknown",
@@ -7716,6 +8130,26 @@
     "weeklyDownloads": 68820,
     "monthlyDownloads": 68820,
     "trendingScore": 1
+<<<<<<< HEAD
 >>>>>>> 42df20e2 (New weekly sorting algo)
+=======
+  },
+  {
+    "id": "deepgenteam/DeepGen-1.0",
+    "name": "DeepGen-1.0",
+    "source": "huggingface",
+    "downloads": 85,
+    "likes": 146,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 0,
+    "tasks": [
+      "General"
+    ],
+    "weeklyDownloads": 85,
+    "monthlyDownloads": 85,
+    "trendingScore": 1
+>>>>>>> fc890171 (Fixed the model leaderboard bar chart.)
   }
 ]

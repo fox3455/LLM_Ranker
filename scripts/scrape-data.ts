@@ -292,12 +292,17 @@ function processModels(
       sizeBytes: 0,
       tasks,
 <<<<<<< HEAD
+<<<<<<< HEAD
       weeklyDownloads: trendingData?.weeklyDownloads,
       monthlyDownloads: trendingData?.monthlyDownloads, 
 =======
       weeklyDownloads: trendingMap.get(model.modelId)?.weeklyDownloads,
       monthlyDownloads: trendingMap.get(model.modelId)?.monthlyDownloads, 
 >>>>>>> 42df20e2 (New weekly sorting algo)
+=======
+      weeklyDownloads: trendingData?.weeklyDownloads,
+      monthlyDownloads: trendingData?.monthlyDownloads, 
+>>>>>>> fc890171 (Fixed the model leaderboard bar chart.)
     });
   }
   
@@ -332,11 +337,15 @@ function processModels(
 =======
   
   // Add trending-only models (that are not in main HF list)
-  const seen = new Set(processed.map(m => m.id));
-  console.log("Processing trending models, seen size:", seen.size);
+  const seenBeforeTrending = new Set(processed.map(m => m.id));
+  console.log("Processing trending models, seen size:", seenBeforeTrending.size);
   for (const trending of trendingModels) {
+<<<<<<< HEAD
     if (!seen.has(trending.id)) {
 >>>>>>> 42df20e2 (New weekly sorting algo)
+=======
+    if (!seenBeforeTrending.has(trending.id)) {
+>>>>>>> fc890171 (Fixed the model leaderboard bar chart.)
       const params = extractParameters('');
       const tasks = extractTasks(trending.tags);
       
@@ -345,10 +354,14 @@ function processModels(
         name: trending.id.split('/')[1] || trending.id.split('/')[0],
         source: 'huggingface' as const,
 <<<<<<< HEAD
+<<<<<<< HEAD
         downloads: trending.weeklyDownloads,
 =======
         downloads: 0,
 >>>>>>> 42df20e2 (New weekly sorting algo)
+=======
+        downloads: trending.weeklyDownloads,
+>>>>>>> fc890171 (Fixed the model leaderboard bar chart.)
         likes: trending.likes,
         tags: trending.tags || [],
         parameters: 'Unknown',
@@ -364,6 +377,9 @@ function processModels(
   }
   console.log("After adding trending models, total:", processed.length);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fc890171 (Fixed the model leaderboard bar chart.)
   
   // Deduplicate by ID
   const seen = new Set<string>();
@@ -375,9 +391,12 @@ function processModels(
     }
   }
   return uniqueProcessed;
+<<<<<<< HEAD
 =======
   return processed;
 >>>>>>> 42df20e2 (New weekly sorting algo)
+=======
+>>>>>>> fc890171 (Fixed the model leaderboard bar chart.)
 }
 
 function saveData(models: ProcessedModel[], outputPath: string): void {
