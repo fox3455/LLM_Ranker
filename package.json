@@ -2,7 +2,7 @@
   "name": "llm-ranking",
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://fox3455.github.io/LLM_Ranker",
+
   "scripts": {
     "dev": "next dev",
     "build": "next build",

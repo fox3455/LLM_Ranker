@@ -4,7 +4,7 @@
     "name": "all-MiniLM-L6-v2",
     "source": "huggingface",
     "downloads": 171219924,
-    "likes": 4505,
+    "likes": 4509,
     "tags": [
       "sentence-transformers",
       "pytorch",
@@ -495,7 +495,7 @@
     "name": "Qwen2.5-7B-Instruct",
     "source": "huggingface",
     "downloads": 16620493,
-    "likes": 1092,
+    "likes": 1094,
     "tags": [
       "transformers",
       "safetensors",
@@ -558,7 +558,7 @@
     "name": "chronos-2",
     "source": "huggingface",
     "downloads": 15422875,
-    "likes": 188,
+    "likes": 189,
     "tags": [
       "chronos-forecasting",
       "safetensors",
@@ -703,7 +703,7 @@
     "name": "Qwen3-VL-2B-Instruct",
     "source": "huggingface",
     "downloads": 12811514,
-    "likes": 333,
+    "likes": 334,
     "tags": [
       "transformers",
       "safetensors",
@@ -765,7 +765,7 @@
     "name": "Qwen3-0.6B",
     "source": "huggingface",
     "downloads": 10036447,
-    "likes": 1102,
+    "likes": 1103,
     "tags": [
       "transformers",
       "safetensors",
@@ -814,7 +814,7 @@
     "name": "Kokoro-82M",
     "source": "huggingface",
     "downloads": 9208584,
-    "likes": 5755,
+    "likes": 5757,
     "tags": [
       "text-to-speech",
       "en",
@@ -989,7 +989,7 @@
     "name": "Qwen2.5-1.5B-Instruct",
     "source": "huggingface",
     "downloads": 6529214,
-    "likes": 621,
+    "likes": 622,
     "tags": [
       "transformers",
       "safetensors",
@@ -1325,7 +1325,7 @@
     "name": "gpt-oss-20b",
     "source": "huggingface",
     "downloads": 5717889,
-    "likes": 4396,
+    "likes": 4398,
     "tags": [
       "transformers",
       "safetensors",
@@ -1591,7 +1591,7 @@
     "name": "Qwen3-4B",
     "source": "huggingface",
     "downloads": 4832889,
-    "likes": 557,
+    "likes": 559,
     "tags": [
       "transformers",
       "safetensors",
@@ -1843,7 +1843,7 @@
     "name": "Qwen2.5-32B-Instruct",
     "source": "huggingface",
     "downloads": 4310287,
-    "likes": 330,
+    "likes": 331,
     "tags": [
       "transformers",
       "safetensors",
@@ -2280,7 +2280,7 @@
     "name": "bge-reranker-v2-m3",
     "source": "huggingface",
     "downloads": 3652807,
-    "likes": 895,
+    "likes": 896,
     "tags": [
       "sentence-transformers",
       "safetensors",
@@ -2470,7 +2470,7 @@
     "name": "gpt-oss-120b",
     "source": "huggingface",
     "downloads": 3565823,
-    "likes": 4521,
+    "likes": 4524,
     "tags": [
       "transformers",
       "safetensors",
@@ -2520,7 +2520,7 @@
     "name": "bart-large-mnli",
     "source": "huggingface",
     "downloads": 3537590,
-    "likes": 1537,
+    "likes": 1538,
     "tags": [
       "transformers",
       "pytorch",
@@ -3099,7 +3099,7 @@
     "name": "Qwen2-1.5B-Instruct",
     "source": "huggingface",
     "downloads": 3256873,
-    "likes": 158,
+    "likes": 159,
     "tags": [
       "transformers",
       "safetensors",
@@ -3220,174 +3220,6 @@
     ]
   },
   {
-    "id": "gpt-oss:120b",
-    "name": "gpt-oss",
-    "source": "ollama",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [],
-    "parameters": "Unknown",
-    "estimatedVram": "Unknown",
-    "sizeBytes": 65290180781,
-    "tasks": [
-      "General"
-    ]
-  },
-  {
-    "id": "glm-4.7",
-    "name": "glm-4.7",
-    "source": "ollama",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [],
-    "parameters": "Unknown",
-    "estimatedVram": "Unknown",
-    "sizeBytes": 696060000000,
-    "tasks": [
-      "General"
-    ]
-  },
-  {
-    "id": "glm-5",
-    "name": "glm-5",
-    "source": "ollama",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [],
-    "parameters": "Unknown",
-    "estimatedVram": "Unknown",
-    "sizeBytes": 756162687872,
-    "tasks": [
-      "General"
-    ]
-  },
-  {
-    "id": "minimax-m2.5",
-    "name": "minimax-m2.5",
-    "source": "ollama",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [],
-    "parameters": "Unknown",
-    "estimatedVram": "Unknown",
-    "sizeBytes": 230000000000,
-    "tasks": [
-      "General"
-    ]
-  },
-  {
-    "id": "kimi-k2-thinking",
-    "name": "kimi-k2-thinking",
-    "source": "ollama",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [],
-    "parameters": "Unknown",
-    "estimatedVram": "Unknown",
-    "sizeBytes": 1118481408000,
-    "tasks": [
-      "General"
-    ]
-  },
-  {
-    "id": "nemotron-3-nano:30b",
-    "name": "nemotron-3-nano",
-    "source": "ollama",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [],
-    "parameters": "Unknown",
-    "estimatedVram": "Unknown",
-    "sizeBytes": 32645090390,
-    "tasks": [
-      "General"
-    ]
-  },
-  {
-    "id": "gpt-oss:20b",
-    "name": "gpt-oss",
-    "source": "ollama",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [],
-    "parameters": "Unknown",
-    "estimatedVram": "Unknown",
-    "sizeBytes": 13780162412,
-    "tasks": [
-      "General"
-    ]
-  },
-  {
-    "id": "devstral-small-2:24b",
-    "name": "devstral-small-2",
-    "source": "ollama",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [],
-    "parameters": "Unknown",
-    "estimatedVram": "Unknown",
-    "sizeBytes": 51600000000,
-    "tasks": [
-      "General"
-    ]
-  },
-  {
-    "id": "gemini-3-flash-preview",
-    "name": "gemini-3-flash-preview",
-    "source": "ollama",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [],
-    "parameters": "Unknown",
-    "estimatedVram": "Unknown",
-    "sizeBytes": 0,
-    "tasks": [
-      "General"
-    ]
-  },
-  {
-    "id": "gemma3:27b",
-    "name": "gemma3",
-    "source": "ollama",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [],
-    "parameters": "Unknown",
-    "estimatedVram": "Unknown",
-    "sizeBytes": 55000000000,
-    "tasks": [
-      "General"
-    ]
-  },
-  {
-    "id": "qwen3.5:397b",
-    "name": "qwen3.5",
-    "source": "ollama",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [],
-    "parameters": "Unknown",
-    "estimatedVram": "Unknown",
-    "sizeBytes": 397000000000,
-    "tasks": [
-      "General"
-    ]
-  },
-  {
-    "id": "kimi-k2.5",
-    "name": "kimi-k2.5",
-    "source": "ollama",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [],
-    "parameters": "Unknown",
-    "estimatedVram": "Unknown",
-    "sizeBytes": 1118481408000,
-    "tasks": [
-      "General"
-    ]
-  },
-  {
     "id": "deepseek-v3.1:671b",
     "name": "deepseek-v3.1",
     "source": "ollama",
@@ -3402,127 +3234,15 @@
     ]
   },
   {
-    "id": "devstral-2:123b",
-    "name": "devstral-2",
+    "id": "nemotron-3-nano:30b",
+    "name": "nemotron-3-nano",
     "source": "ollama",
     "downloads": 0,
     "likes": 0,
     "tags": [],
     "parameters": "Unknown",
     "estimatedVram": "Unknown",
-    "sizeBytes": 128249391520,
-    "tasks": [
-      "General"
-    ]
-  },
-  {
-    "id": "qwen3-coder-next",
-    "name": "qwen3-coder-next",
-    "source": "ollama",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [],
-    "parameters": "Unknown",
-    "estimatedVram": "Unknown",
-    "sizeBytes": 81800000000,
-    "tasks": [
-      "General"
-    ]
-  },
-  {
-    "id": "deepseek-v3.2",
-    "name": "deepseek-v3.2",
-    "source": "ollama",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [],
-    "parameters": "Unknown",
-    "estimatedVram": "Unknown",
-    "sizeBytes": 688586727753,
-    "tasks": [
-      "General"
-    ]
-  },
-  {
-    "id": "qwen3-vl:235b",
-    "name": "qwen3-vl",
-    "source": "ollama",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [],
-    "parameters": "Unknown",
-    "estimatedVram": "Unknown",
-    "sizeBytes": 470000000000,
-    "tasks": [
-      "General"
-    ]
-  },
-  {
-    "id": "gemma3:4b",
-    "name": "gemma3",
-    "source": "ollama",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [],
-    "parameters": "Unknown",
-    "estimatedVram": "Unknown",
-    "sizeBytes": 8600000000,
-    "tasks": [
-      "General"
-    ]
-  },
-  {
-    "id": "gemma3:12b",
-    "name": "gemma3",
-    "source": "ollama",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [],
-    "parameters": "Unknown",
-    "estimatedVram": "Unknown",
-    "sizeBytes": 24000000000,
-    "tasks": [
-      "General"
-    ]
-  },
-  {
-    "id": "rnj-1:8b",
-    "name": "rnj-1",
-    "source": "ollama",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [],
-    "parameters": "Unknown",
-    "estimatedVram": "Unknown",
-    "sizeBytes": 16000000000,
-    "tasks": [
-      "General"
-    ]
-  },
-  {
-    "id": "cogito-2.1:671b",
-    "name": "cogito-2.1",
-    "source": "ollama",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [],
-    "parameters": "Unknown",
-    "estimatedVram": "Unknown",
-    "sizeBytes": 688586727753,
-    "tasks": [
-      "General"
-    ]
-  },
-  {
-    "id": "glm-4.6",
-    "name": "glm-4.6",
-    "source": "ollama",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [],
-    "parameters": "Unknown",
-    "estimatedVram": "Unknown",
-    "sizeBytes": 696060000000,
+    "sizeBytes": 32645090390,
     "tasks": [
       "General"
     ]
@@ -3556,85 +3276,29 @@
     ]
   },
   {
-    "id": "ministral-3:8b",
-    "name": "ministral-3",
+    "id": "glm-4.6",
+    "name": "glm-4.6",
     "source": "ollama",
     "downloads": 0,
     "likes": 0,
     "tags": [],
     "parameters": "Unknown",
     "estimatedVram": "Unknown",
-    "sizeBytes": 10400000000,
+    "sizeBytes": 696060000000,
     "tasks": [
       "General"
     ]
   },
   {
-    "id": "ministral-3:14b",
-    "name": "ministral-3",
+    "id": "gpt-oss:120b",
+    "name": "gpt-oss",
     "source": "ollama",
     "downloads": 0,
     "likes": 0,
     "tags": [],
     "parameters": "Unknown",
     "estimatedVram": "Unknown",
-    "sizeBytes": 15700000000,
-    "tasks": [
-      "General"
-    ]
-  },
-  {
-    "id": "mistral-large-3:675b",
-    "name": "mistral-large-3",
-    "source": "ollama",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [],
-    "parameters": "Unknown",
-    "estimatedVram": "Unknown",
-    "sizeBytes": 682000000000,
-    "tasks": [
-      "General"
-    ]
-  },
-  {
-    "id": "qwen3-coder:480b",
-    "name": "qwen3-coder",
-    "source": "ollama",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [],
-    "parameters": "Unknown",
-    "estimatedVram": "Unknown",
-    "sizeBytes": 510492157952,
-    "tasks": [
-      "General"
-    ]
-  },
-  {
-    "id": "qwen3-next:80b",
-    "name": "qwen3-next",
-    "source": "ollama",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [],
-    "parameters": "Unknown",
-    "estimatedVram": "Unknown",
-    "sizeBytes": 81800000000,
-    "tasks": [
-      "General"
-    ]
-  },
-  {
-    "id": "minimax-m2",
-    "name": "minimax-m2",
-    "source": "ollama",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [],
-    "parameters": "Unknown",
-    "estimatedVram": "Unknown",
-    "sizeBytes": 230000000000,
+    "sizeBytes": 65290180781,
     "tasks": [
       "General"
     ]
@@ -3654,11 +3318,347 @@
     ]
   },
   {
+    "id": "minimax-m2.5",
+    "name": "minimax-m2.5",
+    "source": "ollama",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 230000000000,
+    "tasks": [
+      "General"
+    ]
+  },
+  {
+    "id": "ministral-3:14b",
+    "name": "ministral-3",
+    "source": "ollama",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 15700000000,
+    "tasks": [
+      "General"
+    ]
+  },
+  {
+    "id": "rnj-1:8b",
+    "name": "rnj-1",
+    "source": "ollama",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 16000000000,
+    "tasks": [
+      "General"
+    ]
+  },
+  {
+    "id": "qwen3.5:397b",
+    "name": "qwen3.5",
+    "source": "ollama",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 397000000000,
+    "tasks": [
+      "General"
+    ]
+  },
+  {
+    "id": "qwen3-coder-next",
+    "name": "qwen3-coder-next",
+    "source": "ollama",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 81800000000,
+    "tasks": [
+      "General"
+    ]
+  },
+  {
+    "id": "deepseek-v3.2",
+    "name": "deepseek-v3.2",
+    "source": "ollama",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 688586727753,
+    "tasks": [
+      "General"
+    ]
+  },
+  {
+    "id": "gpt-oss:20b",
+    "name": "gpt-oss",
+    "source": "ollama",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 13780162412,
+    "tasks": [
+      "General"
+    ]
+  },
+  {
+    "id": "minimax-m2",
+    "name": "minimax-m2",
+    "source": "ollama",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 230000000000,
+    "tasks": [
+      "General"
+    ]
+  },
+  {
+    "id": "ministral-3:8b",
+    "name": "ministral-3",
+    "source": "ollama",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 10400000000,
+    "tasks": [
+      "General"
+    ]
+  },
+  {
+    "id": "devstral-2:123b",
+    "name": "devstral-2",
+    "source": "ollama",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 128249391520,
+    "tasks": [
+      "General"
+    ]
+  },
+  {
+    "id": "gemma3:4b",
+    "name": "gemma3",
+    "source": "ollama",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 8600000000,
+    "tasks": [
+      "General"
+    ]
+  },
+  {
+    "id": "qwen3-next:80b",
+    "name": "qwen3-next",
+    "source": "ollama",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 81800000000,
+    "tasks": [
+      "General"
+    ]
+  },
+  {
+    "id": "qwen3-vl:235b",
+    "name": "qwen3-vl",
+    "source": "ollama",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 470000000000,
+    "tasks": [
+      "General"
+    ]
+  },
+  {
+    "id": "mistral-large-3:675b",
+    "name": "mistral-large-3",
+    "source": "ollama",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 682000000000,
+    "tasks": [
+      "General"
+    ]
+  },
+  {
+    "id": "cogito-2.1:671b",
+    "name": "cogito-2.1",
+    "source": "ollama",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 688586727753,
+    "tasks": [
+      "General"
+    ]
+  },
+  {
+    "id": "glm-5",
+    "name": "glm-5",
+    "source": "ollama",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 756162687872,
+    "tasks": [
+      "General"
+    ]
+  },
+  {
+    "id": "kimi-k2.5",
+    "name": "kimi-k2.5",
+    "source": "ollama",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 1118481408000,
+    "tasks": [
+      "General"
+    ]
+  },
+  {
+    "id": "kimi-k2-thinking",
+    "name": "kimi-k2-thinking",
+    "source": "ollama",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 1118481408000,
+    "tasks": [
+      "General"
+    ]
+  },
+  {
+    "id": "qwen3-coder:480b",
+    "name": "qwen3-coder",
+    "source": "ollama",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 510492157952,
+    "tasks": [
+      "General"
+    ]
+  },
+  {
+    "id": "devstral-small-2:24b",
+    "name": "devstral-small-2",
+    "source": "ollama",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 51600000000,
+    "tasks": [
+      "General"
+    ]
+  },
+  {
+    "id": "gemma3:27b",
+    "name": "gemma3",
+    "source": "ollama",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 55000000000,
+    "tasks": [
+      "General"
+    ]
+  },
+  {
+    "id": "glm-4.7",
+    "name": "glm-4.7",
+    "source": "ollama",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 696060000000,
+    "tasks": [
+      "General"
+    ]
+  },
+  {
+    "id": "gemini-3-flash-preview",
+    "name": "gemini-3-flash-preview",
+    "source": "ollama",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 0,
+    "tasks": [
+      "General"
+    ]
+  },
+  {
+    "id": "gemma3:12b",
+    "name": "gemma3",
+    "source": "ollama",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 24000000000,
+    "tasks": [
+      "General"
+    ]
+  },
+  {
     "id": "Qwen/Qwen3.5-397B-A17B",
     "name": "Qwen3.5-397B-A17B",
     "source": "huggingface",
     "downloads": 390092,
-    "likes": 987,
+    "likes": 1031,
     "tags": [],
     "parameters": "Unknown",
     "estimatedVram": "Unknown",
@@ -3675,7 +3675,7 @@
     "name": "GLM-5",
     "source": "huggingface",
     "downloads": 180202,
-    "likes": 1504,
+    "likes": 1537,
     "tags": [],
     "parameters": "Unknown",
     "estimatedVram": "Unknown",
@@ -3688,11 +3688,28 @@
     "trendingScore": 1
   },
   {
+    "id": "Qwen/Qwen3.5-35B-A3B",
+    "name": "Qwen3.5-35B-A3B",
+    "source": "huggingface",
+    "downloads": 0,
+    "likes": 257,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 0,
+    "tasks": [
+      "General"
+    ],
+    "weeklyDownloads": 0,
+    "monthlyDownloads": 0,
+    "trendingScore": 1
+  },
+  {
     "id": "Nanbeige/Nanbeige4.1-3B",
     "name": "Nanbeige4.1-3B",
     "source": "huggingface",
     "downloads": 202462,
-    "likes": 773,
+    "likes": 785,
     "tags": [],
     "parameters": "Unknown",
     "estimatedVram": "Unknown",
@@ -3705,28 +3722,11 @@
     "trendingScore": 1
   },
   {
-    "id": "nvidia/personaplex-7b-v1",
-    "name": "personaplex-7b-v1",
-    "source": "huggingface",
-    "downloads": 539333,
-    "likes": 2181,
-    "tags": [],
-    "parameters": "Unknown",
-    "estimatedVram": "Unknown",
-    "sizeBytes": 0,
-    "tasks": [
-      "General"
-    ],
-    "weeklyDownloads": 539333,
-    "monthlyDownloads": 539333,
-    "trendingScore": 1
-  },
-  {
     "id": "MiniMaxAI/MiniMax-M2.5",
     "name": "MiniMax-M2.5",
     "source": "huggingface",
     "downloads": 223962,
-    "likes": 902,
+    "likes": 921,
     "tags": [],
     "parameters": "Unknown",
     "estimatedVram": "Unknown",
@@ -3739,11 +3739,45 @@
     "trendingScore": 1
   },
   {
+    "id": "nvidia/personaplex-7b-v1",
+    "name": "personaplex-7b-v1",
+    "source": "huggingface",
+    "downloads": 539333,
+    "likes": 2192,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 0,
+    "tasks": [
+      "General"
+    ],
+    "weeklyDownloads": 539333,
+    "monthlyDownloads": 539333,
+    "trendingScore": 1
+  },
+  {
+    "id": "Qwen/Qwen3.5-27B",
+    "name": "Qwen3.5-27B",
+    "source": "huggingface",
+    "downloads": 0,
+    "likes": 196,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 0,
+    "tasks": [
+      "General"
+    ],
+    "weeklyDownloads": 0,
+    "monthlyDownloads": 0,
+    "trendingScore": 1
+  },
+  {
     "id": "TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-GGUF",
     "name": "Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-GGUF",
     "source": "huggingface",
     "downloads": 34627,
-    "likes": 190,
+    "likes": 198,
     "tags": [],
     "parameters": "Unknown",
     "estimatedVram": "Unknown",
@@ -3756,11 +3790,11 @@
     "trendingScore": 1
   },
   {
-    "id": "xgen-universe/Capybara",
-    "name": "Capybara",
+    "id": "Qwen/Qwen3.5-122B-A10B",
+    "name": "Qwen3.5-122B-A10B",
     "source": "huggingface",
     "downloads": 0,
-    "likes": 177,
+    "likes": 184,
     "tags": [],
     "parameters": "Unknown",
     "estimatedVram": "Unknown",
@@ -3773,79 +3807,11 @@
     "trendingScore": 1
   },
   {
-    "id": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
-    "name": "Qwen3-TTS-12Hz-1.7B-CustomVoice",
-    "source": "huggingface",
-    "downloads": 1023572,
-    "likes": 1172,
-    "tags": [],
-    "parameters": "Unknown",
-    "estimatedVram": "Unknown",
-    "sizeBytes": 0,
-    "tasks": [
-      "General"
-    ],
-    "weeklyDownloads": 1023572,
-    "monthlyDownloads": 1023572,
-    "trendingScore": 1
-  },
-  {
-    "id": "moonshotai/Kimi-K2.5",
-    "name": "Kimi-K2.5",
-    "source": "huggingface",
-    "downloads": 1276735,
-    "likes": 2104,
-    "tags": [],
-    "parameters": "Unknown",
-    "estimatedVram": "Unknown",
-    "sizeBytes": 0,
-    "tasks": [
-      "General"
-    ],
-    "weeklyDownloads": 1276735,
-    "monthlyDownloads": 1276735,
-    "trendingScore": 1
-  },
-  {
-    "id": "Zyphra/ZUNA",
-    "name": "ZUNA",
-    "source": "huggingface",
-    "downloads": 1351,
-    "likes": 126,
-    "tags": [],
-    "parameters": "Unknown",
-    "estimatedVram": "Unknown",
-    "sizeBytes": 0,
-    "tasks": [
-      "General"
-    ],
-    "weeklyDownloads": 1351,
-    "monthlyDownloads": 1351,
-    "trendingScore": 1
-  },
-  {
-    "id": "Fortytwo-Network/Strand-Rust-Coder-14B-v1",
-    "name": "Strand-Rust-Coder-14B-v1",
-    "source": "huggingface",
-    "downloads": 1272,
-    "likes": 138,
-    "tags": [],
-    "parameters": "Unknown",
-    "estimatedVram": "Unknown",
-    "sizeBytes": 0,
-    "tasks": [
-      "General"
-    ],
-    "weeklyDownloads": 1272,
-    "monthlyDownloads": 1272,
-    "trendingScore": 1
-  },
-  {
     "id": "LocoreMind/LocoOperator-4B",
     "name": "LocoOperator-4B",
     "source": "huggingface",
     "downloads": 57,
-    "likes": 119,
+    "likes": 160,
     "tags": [],
     "parameters": "Unknown",
     "estimatedVram": "Unknown",
@@ -3858,11 +3824,11 @@
     "trendingScore": 1
   },
   {
-    "id": "nvidia/NVIDIA-Nemotron-Nano-9B-v2-Japanese",
-    "name": "NVIDIA-Nemotron-Nano-9B-v2-Japanese",
+    "id": "moonshotai/Kimi-K2.5",
+    "name": "Kimi-K2.5",
     "source": "huggingface",
-    "downloads": 10409,
-    "likes": 110,
+    "downloads": 1276735,
+    "likes": 2118,
     "tags": [],
     "parameters": "Unknown",
     "estimatedVram": "Unknown",
@@ -3870,16 +3836,16 @@
     "tasks": [
       "General"
     ],
-    "weeklyDownloads": 10409,
-    "monthlyDownloads": 10409,
+    "weeklyDownloads": 1276735,
+    "monthlyDownloads": 1276735,
     "trendingScore": 1
   },
   {
-    "id": "FireRedTeam/FireRed-Image-Edit-1.0",
-    "name": "FireRed-Image-Edit-1.0",
+    "id": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+    "name": "Qwen3-TTS-12Hz-1.7B-CustomVoice",
     "source": "huggingface",
-    "downloads": 3053,
-    "likes": 267,
+    "downloads": 1023572,
+    "likes": 1178,
     "tags": [],
     "parameters": "Unknown",
     "estimatedVram": "Unknown",
@@ -3887,8 +3853,76 @@
     "tasks": [
       "General"
     ],
-    "weeklyDownloads": 3053,
-    "monthlyDownloads": 3053,
+    "weeklyDownloads": 1023572,
+    "monthlyDownloads": 1023572,
+    "trendingScore": 1
+  },
+  {
+    "id": "Fortytwo-Network/Strand-Rust-Coder-14B-v1",
+    "name": "Strand-Rust-Coder-14B-v1",
+    "source": "huggingface",
+    "downloads": 1272,
+    "likes": 143,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 0,
+    "tasks": [
+      "General"
+    ],
+    "weeklyDownloads": 1272,
+    "monthlyDownloads": 1272,
+    "trendingScore": 1
+  },
+  {
+    "id": "Zyphra/ZUNA",
+    "name": "ZUNA",
+    "source": "huggingface",
+    "downloads": 1351,
+    "likes": 128,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 0,
+    "tasks": [
+      "General"
+    ],
+    "weeklyDownloads": 1351,
+    "monthlyDownloads": 1351,
+    "trendingScore": 1
+  },
+  {
+    "id": "xgen-universe/Capybara",
+    "name": "Capybara",
+    "source": "huggingface",
+    "downloads": 0,
+    "likes": 180,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 0,
+    "tasks": [
+      "General"
+    ],
+    "weeklyDownloads": 0,
+    "monthlyDownloads": 0,
+    "trendingScore": 1
+  },
+  {
+    "id": "unsloth/Qwen3.5-35B-A3B-GGUF",
+    "name": "Qwen3.5-35B-A3B-GGUF",
+    "source": "huggingface",
+    "downloads": 0,
+    "likes": 114,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 0,
+    "tasks": [
+      "General"
+    ],
+    "weeklyDownloads": 0,
+    "monthlyDownloads": 0,
     "trendingScore": 1
   },
   {
@@ -3896,7 +3930,7 @@
     "name": "kitten-tts-mini-0.8",
     "source": "huggingface",
     "downloads": 22695,
-    "likes": 102,
+    "likes": 106,
     "tags": [],
     "parameters": "Unknown",
     "estimatedVram": "Unknown",
@@ -3909,11 +3943,28 @@
     "trendingScore": 1
   },
   {
-    "id": "Qwen/Qwen3.5-35B-A3B",
-    "name": "Qwen3.5-35B-A3B",
+    "id": "FireRedTeam/FireRed-Image-Edit-1.0",
+    "name": "FireRed-Image-Edit-1.0",
+    "source": "huggingface",
+    "downloads": 3053,
+    "likes": 272,
+    "tags": [],
+    "parameters": "Unknown",
+    "estimatedVram": "Unknown",
+    "sizeBytes": 0,
+    "tasks": [
+      "General"
+    ],
+    "weeklyDownloads": 3053,
+    "monthlyDownloads": 3053,
+    "trendingScore": 1
+  },
+  {
+    "id": "LiquidAI/LFM2-24B-A2B",
+    "name": "LFM2-24B-A2B",
     "source": "huggingface",
     "downloads": 0,
-    "likes": 101,
+    "likes": 105,
     "tags": [],
     "parameters": "Unknown",
     "estimatedVram": "Unknown",
@@ -3926,28 +3977,11 @@
     "trendingScore": 1
   },
   {
-    "id": "OpenMOSS-Team/MOSS-TTS",
-    "name": "MOSS-TTS",
-    "source": "huggingface",
-    "downloads": 58361,
-    "likes": 318,
-    "tags": [],
-    "parameters": "Unknown",
-    "estimatedVram": "Unknown",
-    "sizeBytes": 0,
-    "tasks": [
-      "General"
-    ],
-    "weeklyDownloads": 58361,
-    "monthlyDownloads": 58361,
-    "trendingScore": 1
-  },
-  {
     "id": "Qwen/Qwen3.5-397B-A17B-FP8",
     "name": "Qwen3.5-397B-A17B-FP8",
     "source": "huggingface",
     "downloads": 68820,
-    "likes": 93,
+    "likes": 102,
     "tags": [],
     "parameters": "Unknown",
     "estimatedVram": "Unknown",
@@ -3957,40 +3991,6 @@
     ],
     "weeklyDownloads": 68820,
     "monthlyDownloads": 68820,
-    "trendingScore": 1
-  },
-  {
-    "id": "Qwen/Qwen3-Coder-Next",
-    "name": "Qwen3-Coder-Next",
-    "source": "huggingface",
-    "downloads": 484455,
-    "likes": 979,
-    "tags": [],
-    "parameters": "Unknown",
-    "estimatedVram": "Unknown",
-    "sizeBytes": 0,
-    "tasks": [
-      "General"
-    ],
-    "weeklyDownloads": 484455,
-    "monthlyDownloads": 484455,
-    "trendingScore": 1
-  },
-  {
-    "id": "Qwen/Qwen3.5-122B-A10B",
-    "name": "Qwen3.5-122B-A10B",
-    "source": "huggingface",
-    "downloads": 0,
-    "likes": 84,
-    "tags": [],
-    "parameters": "Unknown",
-    "estimatedVram": "Unknown",
-    "sizeBytes": 0,
-    "tasks": [
-      "General"
-    ],
-    "weeklyDownloads": 0,
-    "monthlyDownloads": 0,
     "trendingScore": 1
   }
 ]
