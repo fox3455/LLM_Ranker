@@ -93,7 +93,7 @@ export default async function Home() {
             View All Models <span>→</span>
           </Link>
         </div>
-        <LeaderboardChart models={rankedModels} />
+        <LeaderboardChart models={models} />
       </section>
 
       {/* Featured Models Grid */}
