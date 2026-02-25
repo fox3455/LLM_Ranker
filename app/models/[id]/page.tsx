@@ -153,7 +153,7 @@ export default async function ModelPage({ params }: { params: { id: string } }) 
         )}
         
         <a
-          href="/compare"
+           href="/compare"
           className="px-6 py-3 bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 text-gray-900 dark:text-white rounded-lg font-medium hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors"
         >
           Compare Models

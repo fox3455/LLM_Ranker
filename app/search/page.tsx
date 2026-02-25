@@ -90,7 +90,7 @@ function SearchContent() {
             onChange={(e) => {
               const params = new URLSearchParams(searchParams.toString())
               params.set('sort', e.target.value)
-              window.history.pushState({}, '', `/search?${params.toString()}`)
+               window.history.pushState({}, '', `/search?${params.toString()}`)
             }}
             className="px-4 py-2 bg-gray-800 border border-gray-700 rounded-lg text-white focus:ring-2 focus:ring-purple-500 focus:outline-none"
           >
@@ -109,7 +109,7 @@ function SearchContent() {
               } else {
                 params.delete('source')
               }
-              window.history.pushState({}, '', `/search?${params.toString()}`)
+               window.history.pushState({}, '', `/search?${params.toString()}`)
             }}
             className="px-4 py-2 bg-gray-800 border border-gray-700 rounded-lg text-white focus:ring-2 focus:ring-purple-500 focus:outline-none"
           >
@@ -186,7 +186,7 @@ function SearchContent() {
               <button
                   onClick={() => {
                     setFilters({ minDownloads: 0, minLikes: 0, maxParameters: 1000, selectedTasks: [], selectedVramTiers: [], selectedGPU: undefined })
-                    window.history.pushState({}, '', '/search')
+                     window.history.pushState({}, '', '/search')
                   }}
                   className="px-6 py-2 bg-purple-600 hover:bg-purple-700 text-white font-semibold rounded-lg transition-colors"
                 >

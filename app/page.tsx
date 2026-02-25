@@ -40,13 +40,13 @@ export default async function Home() {
           </p>
           <div className="flex justify-center gap-4 animate-slide-up" style={{ animationDelay: '0.2s' }}>
             <Link 
-              href="/search"
+               href="/search"
               className="px-8 py-4 bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 hover:to-indigo-500 text-white font-bold rounded-xl shadow-lg shadow-purple-500/30 transition-all transform hover:scale-105 hover:shadow-purple-500/50"
             >
               Enter Battle Arena
             </Link>
             <Link 
-              href="/compare"
+               href="/compare"
               className="px-8 py-4 bg-gray-800 hover:bg-gray-700 border border-gray-600 text-white font-bold rounded-xl transition-all transform hover:scale-105"
             >
               Compare Champions
